@@ -15,7 +15,7 @@
         <!-- build:css(.tmp) styles/main.css -->
         <link rel="stylesheet" href="styles/main.css">
         <link rel="stylesheet" href="../bower_components/furatto/dist/css/furatto.css">
-        <link rel="stylesheet" href="../bower_components/furatto/dist/css/furatto.min.css">
+        <!-- <link rel="stylesheet" href="../bower_components/furatto/dist/css/furatto.min.css"> -->
         <link rel="stylesheet" href="../bower_components/furatto/dist/css/normalize.css">
         <!-- endbuild -->
         <!-- build:js scripts/vendor/modernizr.js -->
@@ -29,27 +29,31 @@
         <![endif]-->
 
         <!-- Invisible top padding row -->
-        <div class="row hidden-on-xsmall">
+        <div class="row hidden-on-xsmall hidden-on-small hidden-on-medium">
             <div class="col12 vert10"></div>
         </div>
         <!-- Invisible top padding row -->
 
         <!-- Center content row -->
         <div class="row">
-          <!-- Navbar / title column -->
-          <div class="col-3 vert80 text-center-sm text-left-md text-left-lg" style="background:lightblue">
-            <h1>STAAAG</h1>
-            <h4>sensible thing,</h4>
-            <h4>art and architecture</h4>
-            <h4>groan</h4>
-            <br>
-            <br>
-            <h4>architectural design</h4>
-            <h4>montreal, quebec canada</h4>
-            <h4>hamilton, ontario canada</h4>
-            <h4>siracusa, sicilia italia</h4>
 
-              <ul class="navigation">
+          <!-- Navbar / title column -->
+          <div class="col-3">   <!-- style="background:lightblue" -->
+            <div class="text-left-lg text-left-md text-center-sm sidebar">
+            <header>STAAAG</header>
+            <br>
+            <div>sensible thing,</div>
+            <div>art and architecture</div>
+            <div>groan</div>
+            <br>
+            <br>
+            <div>architectural design</div>
+            <div>montreal, quebec canada</div>
+            <div>hamilton, ontario canada</div>
+            <div>siracusa, sicilia italia</div>
+            <br>
+
+              <ul class="navigation sidebar-style hidden-on-xsmall">
                   <li><a href="#">home</a></li>
                   <li><a href="#">manifesto</a></li>
                   <li><a href="#">services</a></li>
@@ -57,18 +61,20 @@
                   <li><a href="#">contact</a></li>
                   <li><a href="#">blog</a></li>
               </ul>
+
+            </div>
           </div>
           <!-- Navbar / title column -->
 
-          <div class="col-1 vert80" style="background:orange"></div>
-          <div class="col-6 vert80"><img src="images/image-home.png" class="responsive"></img></div>
-          <div class="col-2 vert80" style="background:pink"></div>
+          <div class="col-1"></div>
+          <div class="col-6"><img src="images/image-home.png" class="responsive show-on-landscape hide-on-portrait"></img></div>
+          <div class="col-2"></div>
         </div>
         <!-- Center content row -->
 
 
         <!-- Invisible bottom padding row -->
-        <div class="row hidden-on-xsmall">
+        <div class="row hidden-on-xsmall hidden-on-small hidden-on-medium">
             <div class="col12 vert10"></div>
         </div>
         <!-- Invisible bottom padding row -->
