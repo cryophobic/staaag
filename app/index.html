@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>STAAAG</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="shortcut icon" href="/favicon.ico">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <!-- build:css styles/vendor.css -->
@@ -28,16 +28,27 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-
-        <div class="hero-unit">
-          <h1>'Allo, 'Allo</h1>
-          <p>You now have</p>
-          <ul>
-            <li>HTML5 Boilerplate</li>
-            <li>Sass</li>
-            <li>Modernizr</li>
-          </ul>
+        <!-- Invisible top padding row -->
+        <div class="row hidden-on-xsmall">
+            <div class="col12 vert10"></div>
         </div>
+        <!-- Invisible top padding row -->
+
+        <!-- Center content row -->
+        <div class="row">
+          <div class="col-3 vert80 text-center-lg" style="background:lightblue">col-3</div>
+          <div class="col-1 vert80" style="background:orange">col-1</div>
+          <div class="col-6 vert80"><img src="images/image-home.png" class="responsive"></img></div>
+          <div class="col-2 vert80" style="background:pink">col-2</div>
+        </div>
+        <!-- Center content row -->
+
+
+        <!-- Invisible bottom padding row -->
+        <div class="row hidden-on-xsmall">
+            <div class="col12 vert10"></div>
+        </div>
+        <!-- Invisible bottom padding row -->
 
 
         <!-- build:js scripts/vendor.js -->

@@ -2,7 +2,7 @@
 // endbower
 
 body {
-    background: #fafafa;
+    background: #FFFFFF;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #333;
 }
@@ -28,4 +28,24 @@ body {
     background: #ccc;
     color: #000;
     padding: 0.2em 0;
+}
+
+.vert100 {
+  height:100vh;
+}
+
+.vert80 {
+  height:80vh;
+}
+
+.vert40 {
+  height:40vh;
+}
+
+.vert20 {
+  height:20vh;
+}
+
+.vert10 {
+    height:10vh;
 }
